@@ -8,15 +8,15 @@
 - python
 
 
-# python sell code for crud 
+### python sell code for crud 
 
->>> import os
->>> os.listdir()
-['db_crud_demp.py', 'env']
->>>
+- >>> import os
+- >>> os.listdir()
+- ['db_crud_demp.py', 'env']
 
->>> from db_crud_demo import app, db 
->>> app_context = app.app_context()
+
+->>> from db_crud_demo import app, db 
+->>> app_context = app.app_context()
 >>> app_context.push()
 >>> db.create_all()
 
