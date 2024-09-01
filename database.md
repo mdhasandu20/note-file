@@ -17,19 +17,13 @@
 
 ->>> from db_crud_demo import app, db 
 ->>> app_context = app.app_context()
->>> app_context.push()
->>> db.create_all()
-
->>> micheal = Employee(name='Micheal',age=42, email='micheal@gmail.com') 
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-NameError: name 'Employee' is not defined
-
+->>> app_context.push()
+->>> db.create_all()
  
->>> from db_crud_demo import Employee  
->>> micheal = Employee(name='Micheal',age=42, email='micheal@gmail.com')
->>> micheal
-Employee('Micheal','42','micheal@gmail.com')
+->>> from db_crud_demo import Employee  
+->>> micheal = Employee(name='Micheal',age=42, email='micheal@gmail.com')
+->>> micheal
+-Employee('Micheal','42','micheal@gmail.com')
 
 >>> dwight = Employee(name='Dwight',age=23, email='dwight@gmail.com') 
 >>> dwight
