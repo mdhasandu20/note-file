@@ -2,10 +2,10 @@
 
 # set up in vscode
 
-pip install virtualenv
-virtual env
-.\env\Scripts\activate
-python
+- pip install virtualenv
+- virtual env
+- .\env\Scripts\activate
+- python
 
 
 # python sell code for crud 
