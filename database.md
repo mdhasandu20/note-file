@@ -15,10 +15,10 @@
 -['db_crud_demp.py', 'env']
 
 
-->>> from db_crud_demo import app, db 
-->>> app_context = app.app_context()
-->>> app_context.push()
-->>> db.create_all()
+->>> from db_crud_demo import app, db <br>
+->>> app_context = app.app_context() <br>
+->>> app_context.push() <br>
+->>> db.create_all() <br>
  
 ->>> from db_crud_demo import Employee  
 ->>> micheal = Employee(name='Micheal',age=42, email='micheal@gmail.com')
